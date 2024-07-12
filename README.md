@@ -6,6 +6,9 @@ Welcome to the GreatFrontEnd Projects platform! Join our [Discord server](https:
 
 This is a starter template for your challenge.
 
+## Overview Project
+![Overview Project](./designs/Desktop.jpg)
+
 ## Getting started
 
 ### Overview
