@@ -79,8 +79,29 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  color: #4338CA;
   border-radius: 4px;
+  color: #4338CA;
+  width: fit-content;
+  padding: 2px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card__cta:focus,
+.card__cta:hover {
+  color: #3730a3;
+}
+
+.card__cta:focus {
+  box-shadow:
+    0px 0px 0px 1px #444ce7,
+    0px 0px 0px 4px rgba(68, 76, 231, 0.12);
+}
+
+.card__cta:disabled {
+  pointer-events: none;
+  color: #a3a3a3;
 }
 
 .credits {
